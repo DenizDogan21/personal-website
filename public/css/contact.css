@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    height: 100vh;
+}
+.contact-info{
+    margin-top: 100px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+.contact-list p{
+    margin-top: 20px;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: top;
+}
+
+.contact-list li a i {
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.contact-list li a:hover {
+    color: #007bff;
+}
+
+/* Style for the line */
+.line {
+    width: 160px;
+    height: 3px;
+    background-color: #555252; 
+    margin-bottom: 20px; 
+}
