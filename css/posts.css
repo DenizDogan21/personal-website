@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .posts {
     flex: 9;
     margin-bottom: 30px;
@@ -74,7 +73,7 @@
     .posts .post:nth-child(2n){
         transition: 0.8s;
     }
-=======
+}
 .posts {
     flex: 9;
     margin-bottom: 30px;
@@ -150,5 +149,4 @@
     .posts .post:nth-child(2n){
         transition: 0.8s;
     }
->>>>>>> b6c0f94d733f32c2a9b8938fe32edbd27c1bef40
 }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .sidebar {
     flex: 3;
     padding: 0 20px;
@@ -72,7 +71,7 @@
 .sidebar .area.active{
     opacity: 1;
     transform: translateY(0px);
-=======
+}
 .sidebar {
     flex: 3;
     padding: 0 20px;
@@ -146,5 +145,4 @@
 .sidebar .area.active{
     opacity: 1;
     transform: translateY(0px);
->>>>>>> b6c0f94d733f32c2a9b8938fe32edbd27c1bef40
 }
