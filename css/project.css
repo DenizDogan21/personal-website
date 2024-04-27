@@ -70,6 +70,19 @@ main {
     margin: 10px; /* Add margin between images */
     border-radius: 5px;
 }
+.project-screenshots-horizontal {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: center; /* Center images horizontally */
+    margin-bottom: 20px;
+}
+
+.project-screenshots-horizontal img {
+    width: calc(20% - 2px); /* Make images take up 50% of container width with margin */
+    max-width: 20%; /* Ensure images don't exceed container width */
+    margin: 10px; /* Add margin between images */
+    border-radius: 5px;
+}
 
 .app-store-link-container{
     text-align: right;
