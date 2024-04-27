@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .topbar {
     width: 100%;
     height: 50px;
@@ -74,4 +75,82 @@
         font-size: 25px;
         
     }
+=======
+.topbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Foldit", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.topbar .wrapper {
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+}
+
+
+
+.topbar .center {
+    flex: 6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+/* Scroll Animation */
+
+.topbar .wrapper {
+    opacity: 0;
+    transition: all 0.9s;
+    transform: translateY(-10px);
+}
+
+.topbar .wrapper.active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.topbar .center a {
+    transition: all 0.3s;
+    transform: translateX(-20px);
+    opacity: 0;
+    font-size: 15px;
+}
+
+.topbar .wrapper.active .center a {
+    transition: all 0.5s;
+    transform: translateX(0px);
+    opacity: 1;
+    font-size: 45px;
+}
+
+.topbar .wrapper.active .center a:nth-child(2) {
+    transition-duration: 0.8s;
+}
+
+.topbar .wrapper.active .center a:nth-child(3) {
+    transition-duration: 1.1s;
+}
+
+.topbar .wrapper.active .center a:nth-child(4) {
+    transition-duration: 1.4s;
+}
+
+/* Responsive Area */
+
+@media(max-width:1300px){
+    .topbar .wrapper.active .center a {
+        font-size: 25px;
+        
+    }
+>>>>>>> b6c0f94d733f32c2a9b8938fe32edbd27c1bef40
 }
