@@ -29,3 +29,8 @@ yarn.lock
 
 # Ignore any user-specific files or settings
 *.user
+
+
+# Ignore any user-specific images or logos
+*.png
+*.jpg
