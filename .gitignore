@@ -34,3 +34,4 @@ yarn.lock
 # Ignore any user-specific images or logos
 *.png
 *.jpg
+/img
